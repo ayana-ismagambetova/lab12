@@ -107,3 +107,12 @@ for (let k=0; k<content2.length; k++) {
 	}
 	
 }
+
+//class manipulation
+let one = document.createElement("div");
+one.className = "classtwo";
+console.log(one.classList);
+one.classList.add("div");
+console.log(one.classList);
+one.classList.remove("div");
+console.log(one.classList);
